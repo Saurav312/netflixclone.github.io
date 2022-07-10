@@ -1,0 +1,216 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+body
+{
+    background-color: black;
+}
+#banner
+{
+    background-image: url(images/banner-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 123vh;
+    display: block;
+    min-height: 100vh;
+    opacity: .5;
+    position: relative;
+}
+.logo img
+{
+    height: 103px;
+    width: 169px;
+    position: absolute;
+    top: 7px;
+    left: 2.5%;
+    opacity: .9;
+    z-index: 2;
+}
+#form
+{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 28.5rem;
+    height: 39rem;
+    background-color: black;
+}
+#form h1
+{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+    margin-top: 12%;
+    padding-left: 16%;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input
+{
+    background-color: #333;
+    color: white;
+    padding: 16px 20px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 58%;
+    margin-bottom: 8px;
+}
+button
+{
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 44px 0 12px;
+    background: #e50914;
+    color: white;
+    padding: 16px 20px;
+    width: 67%;
+    cursor: pointer;
+}
+.help-box
+{
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.help-box p
+{
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+}
+.box
+{
+    display: flex;
+}
+.checkbox
+{
+    background: #737373;
+    border-radius: 2px;
+    border: 0;
+    height: 16px;
+    width: 16px;
+    margin-right: 6px;
+}
+.box-2:hover
+{
+   border-bottom: 1px solid #b3b3b3;
+}
+.sign-up
+{
+    width: 67%;
+    margin: auto;
+}
+.sign-up h3
+{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 64px;
+    margin-bottom: 11px;
+}
+.sign-up p
+{
+    font-size: 13px;
+    color: #8c8c8c;
+}
+span
+{
+    color: white;
+    cursor: pointer;
+}
+span:hover
+{
+    border-bottom: 1px solid white;
+}
+footer
+{
+    width: 100%;
+    height: 40vh;
+}
+.footer-text
+{
+    width: 83%;
+    margin: auto;
+    padding-top: 3%;
+}
+.footer-text p
+{
+    color: #757575;
+    font-size: 1em;
+}
+.footer-text span
+{
+    color:#757575;
+}
+.footer-text span:hover
+{
+    border-bottom: 1px solid #757575;
+}
+.footer-links
+{
+    display: grid;
+    justify-content: space-between;
+    margin-top: 3.5%;
+    width: 78%;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 0rem;
+}
+.learn
+{
+    color: #0071eb;
+}
+.learn:hover
+{
+    border-bottom: 1px solid #0071eb;
+}
+.footer-links p
+{
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0.7rem;
+}
+.footer-links p:hover
+{
+    border-bottom: 1px solid #757575;
+}
+
+
+@media (max-width:740px) 
+{
+    #form
+    { position: absolute;
+top: 50%;
+width: 100%;
+height: 100vh;
+background-color: black;
+}
+#banner
+{
+    height: 100vh;
+}
+#form h1 {
+    margin-top: 22%;
+}
+.logo img {
+    height: 82px;
+    width: 143px;
+}
+.footer-links
+{
+grid-template-columns: auto auto;
+}
+}
